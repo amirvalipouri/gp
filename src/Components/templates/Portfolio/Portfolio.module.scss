@@ -1,0 +1,16 @@
+.PORT{
+    width: 100%;
+    .PortP{
+        position: relative;
+        width: 200px;
+        &::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: 100px;
+            background-color: #ffde9e;
+            height: 2px;
+        }
+    }
+}

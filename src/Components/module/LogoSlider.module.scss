@@ -1,0 +1,22 @@
+.LogoSlider{
+    width: 100%;
+    // .button__bar{
+    //     color: red;
+    // }
+    // .slickContainer{
+    //     .slickDots{
+    //         color: red !important;
+    //         display: flex !important;
+    //         justify-content: center !important;
+    //         align-items: center !important;
+    //         padding: 10px;
+
+    //     }   
+    // }
+    .imageContainer{
+        filter: grayscale(1);
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+}

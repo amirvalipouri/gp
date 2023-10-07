@@ -1,0 +1,41 @@
+.TeamCard {
+
+    min-height: 310px;
+    border-radius: 5px;
+    position: relative;
+
+    .TeamImage {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .socialMedia {
+        position: absolute;
+        bottom: 100px;
+        transform: translateY(-50%);
+        transition: all 400ms ease-in-out;
+        opacity: 0;
+
+        
+    }
+
+    &:hover {
+        .socialMedia {
+            transform: translateY(0);
+            opacity: 1;
+            span {
+                background-color: rgba(255, 255, 255, 0.8);
+                &:hover{
+                    background-color: #ffc451;
+                }
+            }
+
+        }
+    }
+}
